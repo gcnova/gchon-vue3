@@ -1,26 +1,28 @@
 <template>
   <div class="home">
-    <div class="nav">
-      <router-link to="/">首页</router-link>
-      <router-link to="/about">关于</router-link>
-      <router-link to="/about">关于</router-link>
-      <router-link to="/about">关于</router-link>
-    </div>
-    <h1>我是首页balabala</h1>
+    <left-menu></left-menu>
+    <right-container></right-container>
+    
   </div>
 </template>
 
 <script>
+import LeftMenu from "@/components/LeftMenu.vue";
+import RightContainer from "@/components/Container.vue";
 
 export default {
-  name: 'HomeView'
+  name: 'HomeView',
+  components:{
+    LeftMenu,
+    RightContainer
+  }
 }
 </script>
 
 <style lang="less" scoped>
-  .nav{
+  .home{
+    width: 100%;
+    height: 100%;
     display: flex;
-    height: 50px;
-    background-color: #eee;
   }
 </style>

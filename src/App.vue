@@ -3,14 +3,10 @@
 </template>
 
 <style lang="less">
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: '微软雅黑';
-}
-a{
-  color: #333;
-  text-decoration: none;
+@import './assets/css/global.css';
+
+#app{
+  height: 100%;
+  width: 100%;
 }
 </style>

@@ -1,12 +1,12 @@
 <template>
   <div class="container">
-      <div class="nav">
-      <router-link to="/">首页</router-link>
-      <router-link to="/about">关于</router-link>
-      <router-link to="/about">关于</router-link>
-      <router-link to="/about">关于</router-link>
+    <div class="nav">
+        <a href="">首页</a>
+        <a href="">布局</a>
+        <a href="">按钮</a>
+        <a href="">关于</a>
     </div>
-    <h1>我是首页balabala</h1>
+    <router-view />
   </div>
 </template>
 
@@ -22,7 +22,12 @@ export default {
 }
 .nav{
     display: flex;
+    justify-content: flex-end;
     height: 50px;
-    background-color: #eee;
+    background-color: #F5F7FA;
+    a{
+        padding: 0 20px;
+        line-height: 50px;
+    }
   }
 </style>

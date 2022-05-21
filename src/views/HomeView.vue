@@ -1,9 +1,12 @@
 <template>
   <div class="home">
-    <span>我是首页balabala</span>
-    <router-link to="/about">
-      <div>去到关于</div>
-      </router-link>
+    <div class="nav">
+      <router-link to="/">首页</router-link>
+      <router-link to="/about">关于</router-link>
+      <router-link to="/about">关于</router-link>
+      <router-link to="/about">关于</router-link>
+    </div>
+    <h1>我是首页balabala</h1>
   </div>
 </template>
 
@@ -13,3 +16,11 @@ export default {
   name: 'HomeView'
 }
 </script>
+
+<style lang="less" scoped>
+  .nav{
+    display: flex;
+    height: 50px;
+    background-color: #eee;
+  }
+</style>

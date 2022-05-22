@@ -44,11 +44,12 @@ export default {
   background-color: #f5f7fa;
   display: flex;
   flex-direction: column;
+  box-shadow: inset -1px 0 0 #e7e7e7;
   a{
         width: 100%;
         line-height: 50px;
         color: #252A34;
-        padding-left: 50px;
+        padding-left: 30%;
         overflow: hidden;
     }
   a:hover{

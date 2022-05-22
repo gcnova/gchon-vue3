@@ -25,6 +25,7 @@ export default {
     justify-content: flex-end;
     height: 50px;
     background-color: #F5F7FA;
+    box-shadow: inset 0 -1px 0 #e7e7e7;
     a{
         padding: 0 20px;
         line-height: 50px;

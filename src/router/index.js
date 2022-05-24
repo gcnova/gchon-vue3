@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import LayoutView from "../views/LayoutView.vue";
+import CardView from "../views/CardView.vue";
 import ButtonView from "../views/ButtonView.vue";
 import AboutView from "../views/AboutView.vue";
 
@@ -14,6 +15,11 @@ const routes = [
     path: '/layout',
     name: 'layout',
     component: LayoutView
+  },
+  {
+    path: '/card',
+    name: 'card',
+    component: CardView
   },
   {
     path: '/button',

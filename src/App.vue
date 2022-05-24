@@ -4,6 +4,7 @@
       <a href="#">logo占位</a>
       <router-link to="/">首页</router-link>
       <router-link to="/layout">布局</router-link>
+      <router-link to="/card">卡片</router-link>
       <router-link to="/button">按钮</router-link>
       <router-link to="/about">关于</router-link>
     </div>

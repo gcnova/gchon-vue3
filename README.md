@@ -1,5 +1,7 @@
 # gchon-vue3
 
+> 基础模板
+
 ## Project setup
 ```
 npm install

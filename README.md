@@ -1,6 +1,6 @@
 # gchon-vue3
 
-> 基础模板
+> vue3基础模板,有待完善
 
 ## Project setup
 ```
